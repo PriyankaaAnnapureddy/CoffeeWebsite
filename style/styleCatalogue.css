@@ -1,0 +1,356 @@
+
+/* -----CATALOUGE PAGE CSS START----- */
+body{
+  height:100%;
+  /* padding:5px; */
+  margin:0;
+}
+
+.first {
+  padding-top: 20px;
+  text-align: center;
+}
+/* catalougue styles */
+
+/* nav bar CSS starts */
+
+.menu-nav {
+  margin:1px;
+  /* background-color:#333; */
+  /* border: 1px solid wheat; */
+  color: #fff;
+}
+
+.menu-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  /* padding: 8px; */
+  width:100%;
+}
+
+.menu-nav li {
+  padding: 10px;
+  /* border: 0.5px solid brown; */
+  width:100%;
+  text-align: center;
+  margin:3px;
+  cursor: pointer;
+}
+
+.menu-nav li:hover {
+  background-color:#888;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.menu-nav a.active {
+  border-radius: 2px;
+  color: black;
+  width:100%;
+  font-weight: bolder;
+}
+
+/* nav bar CSS ends */
+
+/* main menu css changes starts*/
+
+.mainmenu h3{
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.menu-item {
+  width: 45%;
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.menu-item h4{
+  margin:15px;
+  text-align:  center;
+}
+
+.menu-item h4 a{
+  /* margin:15px; */
+  color: black;
+  font-family: cursive;
+}
+
+.menu-item h4 a:hover{
+  color:gray; 
+}
+
+.menu-item p {
+  /* margin: 10px; */
+  font-size: 14px;
+  color: #555;
+}
+
+
+/* specific menu list css styles starts */
+.menu-details {
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.menu-price {
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu-calories {
+  color: #888;
+}
+
+.add-to-cart-btn {
+  padding: 6px 12px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color:green;
+}
+
+/* hotdrinks menu CSS */
+
+.hotdrinks-menu h3 {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;  
+}
+
+.hotdrinks-menu h4 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* cold drinks menu CSS */
+
+.colddrinks-menu h3 {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;  
+}
+
+.colddrinks-menu h4 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* frozen menu CSS */
+
+.frozendrinks-menu h3 {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;  
+}
+
+.frozendrinks-menu h4 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* smoothies menu CSS */
+
+.smoothies-menu h3 {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;  
+}
+
+.smoothies-menu h4 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* refreshments menu CSS */
+
+.refreshments-menu h3 {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;  
+}
+.refreshments-menu h4 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* desserts menu CSS */
+
+.desserts-menu h3 {
+  margin-top:30px;
+  text-align: center;
+  width: 100%;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;  
+}
+
+.desserts-menu h4 {
+  text-align: center;
+  font-family: cursive;
+}
+
+/* specific menu list css styles ends */
+
+
+/* special offer TIMER CSS starts*/
+
+.frame {
+  height:auto;
+  margin-left:130px;
+  margin-right:130px;
+  margin-top:50px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 25px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.frame h3, .frame h2, .frame h5 {
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.containerCountdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  margin: 0 5px;
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left:3px;
+  padding-right:3px;
+  font-weight: bolder;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.pillowHeader {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.animated-text {
+  position: relative;
+  color: red;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 15s;
+}
+
+@keyframes mymove {
+  from {left:0px;}
+  to {left: 100px;}
+}
+
+
+/* special offer TIMER CSS End*/
+
+
+/* Media CSS */
+
+.card {
+  width: 30vh;
+  margin: 1px;
+}
+
+@media(max-width: 576px){
+  .menu-item {
+    width: 100vh;
+  }
+
+  .frame {
+    height:auto;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+}
+
+
+/* Cursor */
+.typed-cursor {
+  display: none;
+}
+
+/* If fade out option is set */
+.typed-fade-out {
+}
+
+/* media for nav bar */
+@media screen and (max-width: 600px) {
+  .menu-nav {
+    margin:10px;
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(74, 73, 73);
+  }
+
+  .menu-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
